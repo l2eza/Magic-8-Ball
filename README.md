@@ -1,4 +1,4 @@
-# Magic 8 Ball
+# Magic 8 Ball 🎱
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Magic8ball.jpg/220px-Magic8ball.jpg)
 
 The Magic 8 Ball is a plastic sphere, made to look like an oversized eight ball, that is used for fortune-telling or seeking advice.
