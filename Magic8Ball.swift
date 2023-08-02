@@ -1,10 +1,17 @@
+// Magic 8-Ball 🎱
+// Reza
+
 let playerName = "Reza"
+
 let playerQuestion = "Will there be any more snowfall in Beirut for winter 2024? ❄️" 
-let randomNumber = Int.random(in: 1...9) 
-print(randomNumber) 
+
+let randomNumber = Int.random(in: 1...9)
+// print(randomNumber)
+
 let eightBall: String 
+
 switch randomNumber {
- case 1:
+  case 1:
     eightBall = "Yes - definitely"
   case 2:
     eightBall = "It is decidedly so"
@@ -23,8 +30,11 @@ switch randomNumber {
   case 9:
     eightBall = "Very doubtful"
   default: 
-    eightBall = "Error"
+    eightBall = "Error" 
 }
-print("\(playerName) asks: \(playerQuestion)") 
-print("Magic 8 Ball's answer: \(eightBall)")  
+
+
+ playerName.isEmpty ? print("Question: \(playerQuestion)") : print("\(playerName) asks: \(playerQuestion)")
+
+print("Magic 8 Ball's answer: \(eightBall)")
 
